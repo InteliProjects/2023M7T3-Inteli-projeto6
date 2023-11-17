@@ -1,0 +1,115 @@
+.bloco{
+    background-color: var(--menu-bar-dark);
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    border-bottom: 1px solid var(--notification-background-dark);
+    width: 100%;
+    position: fixed;
+
+    .logoText{
+        color: white;
+        font-size: 25px;
+        margin-left: 62px;
+    }
+}
+.direita{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw;
+
+    .logoutSmall{
+        // align-self: flex-end;
+        margin-right: 24px;
+        margin-top: 6px;
+
+    }
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-right: 62px;
+}
+
+.navitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    a{
+        text-decoration: none;
+        color: var(--text-on-color);
+        margin: 0;
+        font-size: 16px;
+        margin-top: 5px;
+        
+    }
+    
+    &:hover{
+        a{
+            color: var(--blue-60);
+        }
+        path{
+            fill: var(--blue-60);
+        }
+    }
+}
+
+.navitemselected{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    a{
+        text-decoration: none;
+        color: var(--blue-60);
+        margin: 0;
+        font-size: 16px;
+        margin-top: 5px;
+        
+    }
+
+    path{
+        fill: var(--blue-60);
+    }
+}
+
+.navbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    p{
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bloco{
+        height: 48px;
+        .logoText{
+            font-size: 16px;
+            margin-left: 24px;
+        }
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .logoutSmall{
+        display: none;
+    }
+}
+

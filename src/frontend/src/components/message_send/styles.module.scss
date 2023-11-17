@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+
+    .msg1{
+        max-width: 254px;
+        background-color: var(--messages-dark);
+        display: flex;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding: 0px 16px;
+        // border-style: none;
+    }
+    .txt1{
+        color: #FFF;
+        font-size: 16px;
+    }
+    
+    .arrow{
+        display: flex;
+        position: absolute;
+        transform: translateX(-50%);
+        border-width: 20px;
+        border-style: solid;
+        border-left: 0px solid transparent;
+        border-top: 20px solid var(--messages-dark);
+        border-right: 30px solid transparent;
+        border-bottom: 20px solid transparent;
+        margin-left: 16px;
+        width: 0;
+        height: 0;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        .msg1 {
+            margin-left: 24px;
+        }
+        
+        .arrow {
+            margin-left: 40px;
+        }
+    }
+}

@@ -1,0 +1,276 @@
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2023 18:01:06] "[31m[1mPOST /transcript HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2023 18:01:11] "[31m[1mPOST /transcript HTTP/1.1[0m" 400 -
+INFO:api_speech_to_text:Failed to transcribe.
+ERROR:api_speech_to_text:Exception on /transcript [POST]
+Traceback (most recent call last):
+  File "C:\Dev\Projects\m7\Projeto6\src\api-speech-to-text\.venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Dev\Projects\m7\Projeto6\src\api-speech-to-text\.venv\lib\site-packages\flask\app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Dev\Projects\m7\Projeto6\src\api-speech-to-text\.venv\lib\site-packages\flask\app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Dev\Projects\m7\Projeto6\src\api-speech-to-text\.venv\lib\site-packages\flask\app.py", line 1837, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a ApiException.
+INFO:werkzeug:127.0.0.1 - - [21/Aug/2023 18:01:26] "[35m[1mPOST /transcript HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 01:46:02] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:03:12] "[31m[1mPOST /transcript HTTP/1.1[0m" 413 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:04:35] "[31m[1mPOST /transcript HTTP/1.1[0m" 413 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:04:54] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:05:39] "[31m[1mPOST /transcript HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:05:50] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:06:25] "[31m[1mPOST /transcript HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:08:55] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:10:08] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Aug/2023 02:12:11] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 23:54:14] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 23:54:26] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 23:54:32] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2023 23:54:43] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:43:57] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:46:58] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:47:58] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:49:16] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:49:52] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:50:51] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:51:48] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:55:49] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 13:56:34] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 14:26:28] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 14:26:32] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 14:56:12] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:18:55] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:43:47] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:44:10] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:45:07] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:45:19] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:45:48] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:46:14] "[31m[1mPOST /transcript HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:46:37] "[31m[1mPOST /transcript HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:51:21] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:52:40] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:53:46] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:53:51] "POST /transcript HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:api_speech_to_text:Exception on /transcript [POST]
+Traceback (most recent call last):
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 108, in transcript
+    audio=request.files['audio'],
+          ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\datastructures\structures.py", line 192, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 147, in transcript
+    except(err):
+           ^^^
+UnboundLocalError: cannot access local variable 'err' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:55:04] "[35m[1mPOST /transcript HTTP/1.1[0m" 500 -
+ERROR:api_speech_to_text:Exception on /transcript [POST]
+Traceback (most recent call last):
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 107, in transcript
+    service.recognize(
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_watson\speech_to_text_v1.py", line 624, in recognize
+    response = self.send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_cloud_sdk_core\base_service.py", line 341, in send
+    raise ApiException(response.status_code, http_response=response)
+ibm_cloud_sdk_core.api_exception.ApiException: Error: unable to transcode data stream audio/wav -> audio/l16 , Code: 400 , X-global-transaction-id: 2d67d6db-2b34-4365-aa3d-18e5d108f5d7
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 147, in transcript
+    except(err):
+           ^^^
+UnboundLocalError: cannot access local variable 'err' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:55:22] "[35m[1mPOST /transcript HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:api_speech_to_text:Exception on /transcript [POST]
+Traceback (most recent call last):
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 107, in transcript
+    service.recognize(
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_watson\speech_to_text_v1.py", line 624, in recognize
+    response = self.send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_cloud_sdk_core\base_service.py", line 341, in send
+    raise ApiException(response.status_code, http_response=response)
+ibm_cloud_sdk_core.api_exception.ApiException: Error: unable to transcode data stream audio/wav -> audio/l16 , Code: 400 , X-global-transaction-id: 0305c722-9757-4d2a-8509-c8f50530df9a
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 147, in transcript
+    except(err):
+           ^^^
+UnboundLocalError: cannot access local variable 'err' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:55:42] "[35m[1mPOST /transcript HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:api_speech_to_text:Exception on /transcript [POST]
+Traceback (most recent call last):
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 105, in transcript
+    service.recognize(
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_watson\speech_to_text_v1.py", line 624, in recognize
+    response = self.send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_cloud_sdk_core\base_service.py", line 341, in send
+    raise ApiException(response.status_code, http_response=response)
+ibm_cloud_sdk_core.api_exception.ApiException: Error: unable to transcode data stream audio/wav -> audio/l16 , Code: 400 , X-global-transaction-id: 580cb692-b2f0-4798-b512-59e2bc0b33b9
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 145, in transcript
+    except(err):
+           ^^^
+UnboundLocalError: cannot access local variable 'err' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:57:14] "[35m[1mPOST /transcript HTTP/1.1[0m" 500 -
+ERROR:api_speech_to_text:Exception on /transcript [POST]
+Traceback (most recent call last):
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 105, in transcript
+    service.recognize(
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_watson\speech_to_text_v1.py", line 624, in recognize
+    response = self.send(request, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\ibm_cloud_sdk_core\base_service.py", line 341, in send
+    raise ApiException(response.status_code, http_response=response)
+ibm_cloud_sdk_core.api_exception.ApiException: Error: unable to transcode data stream audio/wav -> audio/l16 , Code: 400 , X-global-transaction-id: e5f70566-ab15-4a4d-a7b5-7e0e1e1624c8
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saadi\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\projects\Inteli\M7\Projeto6\src\api-speech-to-text\api_speech_to_text.py", line 145, in transcript
+    print(err)
+       ^^^
+UnboundLocalError: cannot access local variable 'err' where it is not associated with a value
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:58:21] "[35m[1mPOST /transcript HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2023 11:58:53] "POST /transcript HTTP/1.1" 200 -

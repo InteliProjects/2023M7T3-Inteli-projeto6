@@ -1,0 +1,24 @@
+.buttonDisplay{
+    width: 50px;
+    height: 50px;
+    background-color: #0f62fe;
+    border-width: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    // margin-right: 12px;
+    cursor: pointer;
+}
+
+.buttonDisplay:hover{
+    opacity: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .buttonDisplay{
+        
+        margin-left: 10px;
+        margin-right: 0;
+    }
+}

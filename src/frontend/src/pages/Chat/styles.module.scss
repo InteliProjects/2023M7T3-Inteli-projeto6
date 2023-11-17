@@ -1,0 +1,54 @@
+@mixin responsive($property, $values) {
+    $breakpoints: (
+      mobile: 320px,
+      tablet: 768px,
+      desktop: 1024px
+    );
+  
+    @each $bp, $width in $breakpoints {
+      @media screen and (min-width: $width) {
+        #{$property}: map-get($values, $bp);
+      }
+    }
+  }
+  
+  // Define your design properties
+  $design-width: 912px;
+  $design-height: 743px;
+  $design-top: 182px;
+  $design-left: 264px;
+  $design-background: linear-gradient(
+    179.99deg,
+    rgba(136, 63, 251, 0.15) 4.65%,
+    rgba(8, 64, 201, 0.15) 50.07%
+  );
+  
+  // Use the responsive mixin to generate responsive styles
+  .chatbox {
+    position: absolute;
+    @include responsive(width, (
+      mobile: $design-width,
+      tablet: $design-width,
+      desktop: $design-width
+    ));
+    @include responsive(height, (
+      mobile: $design-height,
+      tablet: $design-height,
+      desktop: $design-height
+    ));
+    @include responsive(top, (
+      mobile: $design-top,
+      tablet: $design-top,
+      desktop: $design-top
+    ));
+    @include responsive(left, (
+      mobile: $design-left,
+      tablet: $design-left,
+      desktop: $design-left
+    ));
+    @include responsive(background, (
+      mobile: $design-background,
+      tablet: $design-background,
+      desktop: $design-background
+    ));
+  }

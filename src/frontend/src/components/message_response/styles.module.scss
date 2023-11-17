@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+    .msg2{
+        max-width: 254px;
+        margin-left: auto;
+        background-color:  var(--blue-70);
+        display: flex;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding: 0px 16px;
+    }
+    .txt2{
+        color: #FFF;
+    
+    }
+    
+    .arrowmsg{
+        display: flex;
+        position: absolute;
+        border-width: 20px;
+        border-style: solid;
+        border-left: 0px solid transparent;
+        border-top: 20px transparent;
+        border-right: 30px solid  var(--blue-70);
+        border-bottom: 20px solid transparent;
+        right: 0;
+        width: 0;
+        height: 0;    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .msg2 {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        .msg2 {
+            margin-right: 24px;
+        }
+    
+            
+        .arrowmsg {
+            margin-right: 24px;
+        }
+    }
+}

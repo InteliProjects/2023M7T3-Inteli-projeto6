@@ -1,0 +1,41 @@
+.blockChatFeedback{
+    background-color: #000;
+    color: white;
+    width: 250px;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.textBlock{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.upvoteBlock{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downvoteBlock{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedbackButton{
+    width: 80%;
+    height: 50%;
+}
+
+.feedbackButton:hover{
+    opacity: 50%;
+}

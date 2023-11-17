@@ -1,0 +1,91 @@
+.home {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+
+  .dark {
+    background-color: var(--background-dark)
+  }
+
+  .light {
+    background-color: var(--background-light)
+  }
+}
+
+.homeHeader{
+  width: 100%;
+  height: 15vh;
+}
+
+.homeMensages{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  gap: 32px;
+  overflow-y: auto;
+  align-self: center;
+
+}
+
+.homeRecorder{
+  display: flex;
+  // width: 100%;
+  position: fixed;
+  bottom: 150px;
+}
+
+.homeTextfield{
+  width: 63.5%;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px){
+  .homeRecorder{
+      width: 63.5%;
+      align-self: center;
+      bottom: 120px;
+  }
+  
+  .homeTextfield{
+    width: 63.5%;
+    height: 15vh;
+  }
+
+  .homeMensages{
+    width: 63.5%;
+    padding: 0 20%;
+    height: 70vh;
+  }
+  
+}
+
+@media (max-width: 767px){
+  .homeRecorder{
+      bottom: 25vh;
+      align-self: center;
+      margin-right: 35px;
+      margin-left: 380px;
+  }
+  
+  .homeTextfield{
+    width: 100%;
+    height: 16vh;
+  }
+
+  .homeMensages{
+    height: 60vh;
+  } 
+}

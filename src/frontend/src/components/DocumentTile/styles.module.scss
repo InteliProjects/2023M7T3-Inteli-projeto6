@@ -1,0 +1,84 @@
+.tile{
+    background-color: var(--messages-dark);
+    display: flex;
+    width: 312px;
+    border-radius: 0;
+    border: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-direction: column;
+    // margin-right: 7%;
+    // margin-left: 7%;
+    padding: 15px;
+    flex-direction: column;
+
+    .docTitle{
+        display: flex;
+        p{
+            font-size: 20px;
+            margin-top: 0;
+        }
+        
+    }
+    .docDescription{
+        p{
+            font-size: 14px;
+            margin: 0;
+        }
+        display: flex;
+    }
+
+    .tilePart1{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+
+        .tileIcons{
+            display: flex;
+            flex-direction: row;
+            gap: 6px;
+        }
+    }
+}
+
+//  VERSAO COLORIDA
+.tileMelhor{
+    background: linear-gradient(-45deg, #883FFB, #0840C9);
+    display: flex;
+    width: 312px;
+    border-radius: 0;
+    border: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-direction: column;
+    // margin-right: 7%;
+    // margin-left: 7%;
+    padding: 15px;
+    flex-direction: column;
+
+    .docTitle{
+        display: flex;
+        p{
+            font-size: 20px;
+            margin-top: 0;
+        }
+        
+    }
+    .docDescription{
+        p{
+            font-size: 14px;
+            margin: 0;
+        }
+        display: flex;
+    }
+
+    .tilePart1{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+
+        .tileIcons{
+            display: flex;
+            flex-direction: row;
+            gap: 6px;
+        }
+    }
+}

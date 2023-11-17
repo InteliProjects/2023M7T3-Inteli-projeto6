@@ -1,0 +1,117 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-left: 7%;
+    // padding-right: 7%;
+    height: 100vh;
+
+    .loginIcon{
+        display: flex;
+        justify-content: center;
+
+    }
+    .login1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .loginTitle{
+            font-size: 24px;
+            // width: 150px;
+            margin: 0;
+
+        }
+    }
+    .login2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        margin-top: 10px;
+        
+    }
+    .loginForm{
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 294px;
+    font-size: 14px;
+    // margin-left: 7%;
+    // padding-left: 15px;
+    // padding-right: 15px;
+
+        input{
+            display: flex;
+            width: 264px;
+            // width: 100%;
+            // width:auto;
+            height: 40px;
+            border-radius: 0;
+            background-color: var(--layer-2);
+            color: var(--field-01);
+            border: none;
+            border-bottom: 1px solid #6F6F6F;
+            font-size: 14px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            padding-left: 15px;
+            padding-right: 15px;
+            // max-width: 652.8px;
+            margin-top: 8px;
+            margin-bottom: 24px;
+
+            &:focus{
+                border: 2px solid var(--blue-60);
+                outline: none;
+            }
+
+            &:placeholder{
+                color: var(--field-01);
+            }
+        }
+    }
+    .submitButton{
+        display: flex;
+        // margin-top: 25px;
+        button{
+            display: flex;
+            width: 294px;
+            height: 40px;
+            border-radius: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: var(--button-primary);
+            color: var(--field-01);
+            border: none;
+            text-align: start;
+            align-items: center;
+            justify-content: space-between;
+            align-content: center;
+        }
+        
+
+    }
+}
+
+@media (min-width: 768px){
+    .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        // align-content: center;
+        // align-items: center;
+        gap: 60px;
+        .login1{
+            padding-right: 60px;
+            border-right: 1px solid var(--border-strong-01);
+        }
+        .login2{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+    
+}

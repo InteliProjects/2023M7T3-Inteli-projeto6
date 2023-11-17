@@ -1,0 +1,5 @@
+
+src/api-watson-assistant/.env
+.DS_Store
+.venv
+cbow_s50.txt

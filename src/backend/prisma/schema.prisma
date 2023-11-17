@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE")
+}
+
+model User {
+  id          String     @id
+  email       String     @unique
+  name        String?
+  password    String
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  SavedDocs   SavedDocs? @relation(fields: [savedDocsId], references: [id])
+  savedDocsId String?
+}
+
+model OutsideData {
+  id   String @id
+  data String
+  title String
+  url String
+}
+
+model SavedDocs {
+  user User[]
+  docs String
+  id   String @id
+}
